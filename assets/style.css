@@ -11,11 +11,49 @@ header{
     max-width: 350px;
 }
 
-.start .row .col-5 hr{
-    width: 30%;
+.start .row hr,
+#about .row hr{
+    width: 15%;
     height:8px;
     border-width:0;
     background-color:white;
     border-radius: 20px;
     opacity: 1;
+}
+
+#portfolio .row div{
+    color: #2C3D50;
+}
+
+#portfolio .row hr{
+    width: 15%;
+    height:8px;
+    border-width:0;
+    background-color: #2C3D50;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.fa-star{
+    font-size: 40px;
+}
+
+.cards img{
+   width: 300px;
+   border-radius: 10px;
+}
+
+#about{
+    background-color:#1ABC9C;
+}
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.download div{
+    border: 1px solid white;
+    width: 10%;
+    border-radius: 5px;
 }
