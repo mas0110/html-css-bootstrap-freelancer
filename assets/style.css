@@ -1,0 +1,21 @@
+header{
+    background-color: #2C3D50 ;
+    color: white;
+}
+
+.start{
+    background-color:#1ABC9C;
+}
+
+.start .row .col-12 img{
+    max-width: 350px;
+}
+
+.start .row .col-5 hr{
+    width: 30%;
+    height:8px;
+    border-width:0;
+    background-color:white;
+    border-radius: 20px;
+    opacity: 1;
+}
