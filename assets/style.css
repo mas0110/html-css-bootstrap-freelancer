@@ -25,7 +25,8 @@ header{
     color: #2C3D50;
 }
 
-#portfolio .row hr{
+#portfolio .row hr,
+#contact .star hr{
     width: 15%;
     height:8px;
     border-width:0;
@@ -36,6 +37,7 @@ header{
 
 .fa-star{
     font-size: 40px;
+    margin-inline: 5px ;
 }
 
 .cards img{
@@ -54,6 +56,18 @@ header{
 
 .download div{
     border: 1px solid white;
-    width: 10%;
+    min-width: 10%;
     border-radius: 5px;
+}
+
+
+#contact div .info{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.green-bt{
+    background-color: #1ABC9C;
+    padding: 10px;
+    border-radius: 10px;
 }
