@@ -71,3 +71,22 @@ header{
     padding: 10px;
     border-radius: 10px;
 }
+
+footer .first{
+    background-color: #39546D;
+}
+footer .second{
+    background-color: #2C3D50;
+}
+
+footer
+.fa-facebook-f,
+.fa-google-plus-g,
+.fa-x-twitter,
+.fa-linkedin-in{
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
