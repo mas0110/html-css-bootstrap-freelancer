@@ -1,8 +1,12 @@
-header{
+header,
+nav div{
     background-color: #2C3D50 ;
     color: white;
 }
-
+.nav-right{
+   
+   
+}
 .start{
     background-color:#1ABC9C;
 }
@@ -64,6 +68,17 @@ header{
 #contact div .info{
     width: 80%;
     margin: 0 auto;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info input,
+.info textarea{
+    border: 0;
+    border-bottom: 1px solid black;
 }
 
 .green-bt{
